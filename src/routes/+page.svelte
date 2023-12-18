@@ -102,6 +102,8 @@
 		background: $Orange;
 		font-size: 16px;
 
+		letter-spacing: 3px;
+
 		&:hover {
 			color: $Orange;
 			background: $White;
