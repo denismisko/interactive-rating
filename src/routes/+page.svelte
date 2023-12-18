@@ -21,6 +21,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Denis Miskolci | Interactive Rating</title>
+</svelte:head>
+
 {#if succesState && savedRating}
 	<div class="thank-you-box text-c">
 		<img src={thankYouIllustration} alt="" />
@@ -101,6 +105,8 @@
 		color: $White;
 		background: $Orange;
 		font-size: 16px;
+
+		letter-spacing: 3px;
 
 		&:hover {
 			color: $Orange;
