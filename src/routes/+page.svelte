@@ -21,6 +21,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Denis Miskolci | Interactive Rating</title>
+</svelte:head>
+
 {#if succesState && savedRating}
 	<div class="thank-you-box text-c">
 		<img src={thankYouIllustration} alt="" />
